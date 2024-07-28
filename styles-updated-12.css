@@ -1,0 +1,620 @@
+h1 {
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2, h3 {
+  padding: 3%;
+  text-align: left;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Merriweather", serif;
+  background-color: #FAF9F6;
+}
+
+hr {
+  background-color: #fff;
+  border-top: 16px dotted black;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+}
+
+.hr-green {
+  background-color: #E8F6EF;
+  border-top: 16px dotted black;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+/* Articles & Reports */
+li {
+  padding: 15px;
+  line-height: 1.5rem;
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+@media only screen and (max-width: 700px) {
+  li {
+    padding: 4%;
+  }
+}
+
+.journal-articles, .research-reports, .trade-pubs, .blogs {
+  background-color: #E8F6EF;
+  padding-bottom: 5px;
+}
+
+/* Splash Screen */
+.thinkers-50-shortlist {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.spotify-wrapper {
+  width: 40%;
+  padding: 1%;
+}
+
+.spotify-wrapper img {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.spotify-wrapper span {
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.intro-text {
+  line-height: 1.5;
+}
+
+@media (min-width:1400px) {
+  .intro-text {
+    text-align: left;
+    font-size: 1.5rem;
+    padding-bottom: 1%;
+  }
+
+  .bottom-intro-text {
+    font-size: 1.2vw;
+    font-style: italic;
+  }
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-item {
+  width: 30%;
+  padding: 1%;
+}
+
+/* Bottom Bit */
+.bottom-section {
+  background-color: #E8F6EF;
+}
+
+.front-page-covers {
+  padding: 1%;
+}
+
+.leadership-unravelled, .speak-up-pic {
+  height: 100%;
+  display: block;
+  margin: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+  border-radius: 5px;
+}
+
+.speak-up-blurb {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: 2%;
+  margin-bottom: 0;
+}
+
+.shortlist-pic {
+  width: 50%;
+  margin-bottom: 3%;
+}
+
+@media (max-width:991px) {
+  .speak-up-blurb {
+    line-height: 1.5;
+    margin-right, margin-right: : 8%;
+    margin-bottom: 0;
+  }
+
+  .speak-up-pic {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+
+  .shortlist-pic {
+    padding: 3%;
+    width: 35%;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width:1200px) {
+  .thinkers-50-shortlist {
+    text-align: center;
+    width: 100%;
+  }
+
+  .leadership-unravelled, .speak-up-pic {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+
+  .speak-up-blurb {
+    line-height: 1.5;
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 19px;
+  }
+
+  .shortlist-pic {
+    padding: 3%;
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
+
+  .flex-row {
+    flex-direction: column !important;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-item, .spotify-wrapper {
+    width: 70%;
+    margin: 2% 0%;
+  }
+
+  .spotify-wrapper {
+    order: 1;
+  }
+
+  .flex-item {
+    order: 2;
+  }
+}
+
+/* Books & Chapters */
+.top-book {
+  background-color: #E8F6EF;
+}
+
+.book-blurb {
+  padding: 3%;
+}
+
+.books-page-covers {
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 3%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+}
+
+.more, .more2 {
+  display: none;
+}
+
+.shortlist-books-page {
+  display: block;
+  margin: auto;
+}
+
+/* Buttons */
+.myBtn, .myBtn2 {
+  background-color: #c3e8d5;
+  border: none;
+  border-radius: 5%;
+  color: black;
+  padding: 8px 16px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.myBtn3 {
+  background-color: #c3e8d5;
+  border: none;
+  border-radius: 5%;
+  color: black;
+  padding: 8px 16px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.shop-links {
+  margin: 2rem;
+  background-color: #c3e8d5;
+  border: none;
+  border-radius: 5%;
+  color: black;
+  padding: 16px 12px;
+  display: block;
+  margin: auto;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.vids {
+  padding: 4%;
+  display: block;
+  text-align: center;
+}
+
+/* Four covers */
+.covers-section {
+  background-color: #E8F6EF;
+}
+
+.four-covers {
+  padding: 1%;
+}
+
+.img-fluid {
+  width: 80%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+}
+
+@media (max-width:1200px) {
+  .books-page-covers {
+    display: block;
+    width: 45%;
+    margin: auto;
+    padding: 5%;
+  }
+
+  .four-covers {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .vids {
+    margin: auto;
+    width: 90%;
+  }
+
+  .shortlist-books-page {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 4%;
+  }
+}
+
+/* Chapters Section */
+.chapters-list {
+  font-size: 1.15rem;
+}
+
+/* Contact */
+.contact-page {
+  background: #E8F6EF;
+}
+
+.contact-title {
+  background-color: white;
+}
+
+.contact-form {
+  padding: 2em;
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+#form_container {
+  padding: 2%;
+  background: #E8F6EF;
+  display: block;
+  margin: auto;
+}
+
+.contact-me {
+  text-align: center;
+  padding: 1%;
+}
+
+.contact-success-return {
+  text-align: center;
+}
+
+.email-button {
+  margin-top: 8px;
+  background-color: #c3e8d5;
+  border: none;
+  border-radius: 5%;
+  color: black;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* Collaborators */
+.collab-pics {
+  width: 70%;
+  height: 65%;
+  display: block;
+  margin: auto;
+}
+
+.mark-pic {
+  width: 85%;
+}
+
+.anthony-pic, .kathleen-pic {
+  width: 80%;
+}
+
+.phill-chris {
+  width: 90%;
+}
+
+.collab-titles {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.collab-titles-chris {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.collab-texts {
+  font-size: 1.4rem;
+  margin: 1em;
+}
+
+.collab-links {
+  background-color: #c3e8d5;
+  border: none;
+  border-radius: 5%;
+  padding: 16px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.colabs {
+  text-align: center;
+  background-color: #E8F6EF;
+  padding-bottom: 5%;
+}
+
+@media (max-width:900px) {
+  .collab-titles {
+    font-size: 2.5rem;
+  }
+
+  .collab-pics {
+    width: 70%;
+  }
+
+  .mark-pic {
+    width: 80%;
+  }
+
+  .anthony-pic {
+    width: 80%;
+  }
+
+  .phill-chris {
+    width: 90%;
+  }
+
+  .kathleen-pic {
+    width: 70%;
+  }
+
+  .colabs {
+    padding-bottom: 3%;
+  }
+
+  .colabs-lower {
+    padding-bottom: 10%;
+  }
+}
+
+@media (min-width:1920px) {
+  .collab-pics {
+    width: 50%;
+  }
+
+  .mark-pic {
+    width: 60%;
+  }
+
+  .anthony-pic {
+    width: 60%;
+  }
+
+  .phill-chris {
+    width: 70%;
+  }
+
+  .kathleen-pic {
+    width: 50%;
+  }
+
+  .colabs {
+    padding-bottom: 3%;
+  }
+
+  .colabs-lower {
+    padding-bottom: 10%;
+  }
+}
+
+/* Bio Page */
+.bio-page {
+  background-color: #E8F6EF;
+}
+
+.bio-text {
+  margin-bottom: 0%;
+  padding: 3%;
+}
+
+/* Services & Materials  */
+.background-green {
+  background-color: #E8F6EF;
+}
+
+.slide-show {
+  display: block;
+  margin: auto;
+  padding: 28px;
+}
+
+.services-text, .services-text-bulleted {
+  padding-left: 3%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.services-bullets {
+  margin: 0;
+}
+
+.services-list {
+  font-size: 1.25em;
+}
+
+.services-titles {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 1%;
+}
+
+@media(max-width:1200px) {
+  .services-titles {
+    font-size: 3em;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .services-list {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
+.services-banner {
+  padding: 4%;
+}
+
+.navbar {
+  background-color: #c3e8d5;
+  height: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.8em;
+  padding-left: 2%;
+  text-align: center;
+}
+
+.nav-link {
+  font-size: 1.8em;
+  padding-left: 2%;
+}
+
+.navbar-toggler {
+  width: 100px;
+}
+
+.navbar-toggler-icon {
+  width: 3em;
+  height: 2.5em;
+}
+
+.container-fluid {
+  background-color: #c3e8d5;
+}
+
+.bottom-page {
+  background-color: #c3e8d5;
+  height: 70px;
+  /* overflow: auto; */
+}
+
+footer {
+  background-color: #c3e8d5;
+}
+
+.footer-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: grey;
+  margin-bottom: 0;
+}
+
+.donald-mail, .john-mail {
+  text-decoration: none;
+  color: grey;
+}
+
+.dropped {
+  margin-bottom: 40%;
+}
