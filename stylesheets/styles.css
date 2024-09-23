@@ -618,3 +618,7 @@ footer {
 .dropped {
   margin-bottom: 40%;
 }
+
+#middleNameDiv {
+    display:none;
+}
